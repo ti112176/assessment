@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<!-- 実験用。質問内容をJSONに逃した場合。途中。。。。 -->
+<html>
+<head>
+	<link
+		rel="stylesheet"
+		href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.css"
+		integrity="sha256-tqnsGuq1RhhSNqeZr8GW+PXVDpiNDwNujo4iNsdP50o="
+		crossorigin="anonymous" />
+	<link
+		rel="stylesheet"
+		href="/stylesheets/index2.css" />
+	<link
+		rel="stylesheet"
+		href="/stylesheets/style.css" />
+</head>
+<body>
+<div class="container">
+    <div id="assessSlide" class="carousel slide" data-ride="carousel" data-interval="false">
+        <div class="carousel-inner">
+        	
+        	<div id="page00" class="carousel-item active">
+                <div class="_button-container">
+                    <button class="btn btn-primary _btn-next">開始</a>
+                </div>
+            </div>
+            
+            <div id="page01" class="carousel-item">
+				<div id="section1" class="_section-container">
+					<h2 class="_section">セクション１</h2>
+					<div id="q-11"></div>
+					<div id="q-12"></div>
+					<div id="q-13"></div>
+					<div id="q-14"></div>
+				</div>
+				<div id="section2" class="_section-container">
+					<h2 class="_section">セクション２</h2>
+					<div id="q-21"></div>
+					<div id="q-22"></div>
+					<div id="q-23"></div>
+					<div id="q-24"></div>
+				</div>
+                <div class="_button-container">
+                    <button class="btn btn-success _btn-prev">戻る</a>
+                    <button class="btn btn-primary _btn-next">次へ</a>
+                </div>
+            </div>
+        	
+            <div id="page02" class="carousel-item">
+				<div id="section3" class="_section-container">
+					<h2 class="_section">セクション３</h2>
+					<div id="q-31"></div>
+					<div id="q-32"></div>
+					<div id="q-33"></div>
+					<div id="q-34"></div>
+				</div>
+                <div class="_button-container">
+                    <button class="btn btn-success _btn-prev">戻る</a>
+                    <button class="btn btn-primary _btn-check invisible">診断</a>
+                </div>
+            </div>
+        </div>
+	</div>
+</div>
+<script
+		src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"
+		integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+		crossorigin="anonymous"></script>
+<script
+		src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"
+		integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
+		crossorigin="anonymous"></script>
+<script
+		src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"
+		integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
+		crossorigin="anonymous"></script>
+<script	
+	src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore.js"
+	integrity="sha256-SzKOQsVYGX1bmddyfPzGC6yXY/rWYGUSMOi6+T9gZ+0="
+	crossorigin="anonymous"></script>
+<script
+	src="https://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.3.3/backbone.js"
+	integrity="sha256-JN0u7081AU4SZiikD1KKHSSBk/BNVFiTE95qK++aB6Y="
+	crossorigin="anonymous"></script>
+<script type="text/template" id="question_template">
+			<div class="_question-holder">
+				<p class="lead _question">{{=question}}</p>
+				<div class="row _selection-holder"></div>
+			</div>
+</script>
+<script type="text/template" id="selection_template">
+				<div class="col-md-4">
+					<button class="btn btn-block btn-info _select-button" aria-pressed="true">
+						<span>{{=text}}
+							<input type="hidden" class="_key" value="{{=key}}">
+							<input type="hidden" class="_point" value="{{=point}}">
+						</span>
+					</button>
+				</div>
+</script>
+<script src="javascripts/index2.js"></script>
+</body>
+</html>

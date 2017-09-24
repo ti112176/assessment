@@ -1,0 +1,218 @@
+[
+  {
+    "key":"q-11",
+    "question": "質問１１",
+    "selections": [
+      {
+        "text": "○○である",
+        "point": 3
+      },
+      {
+        "text": "○○かもしれない",
+        "point": 2
+      },
+      {
+        "text": "○○ではない",
+        "point": 1
+      }
+    ]
+  },
+  {
+    "key":"q-12",
+    "question": "質問１２",
+    "selections": [
+      {
+        "text": "○○である",
+        "point": 3
+      },
+      {
+        "text": "○○かもしれない",
+        "point": 2
+      },
+      {
+        "text": "○○ではない",
+        "point": 1
+      }
+    ]
+  },
+  {
+    "key":"q-13",
+    "question": "質問１３",
+    "selections": [
+      {
+        "text": "○○である",
+        "point": 3
+      },
+      {
+        "text": "○○かもしれない",
+        "point": 2
+      },
+      {
+        "text": "○○ではない",
+        "point": 1
+      }
+    ]
+  },
+  {
+    "key":"q-14",
+    "question": "質問１４",
+    "selections": [
+      {
+        "text": "○○である",
+        "point": 3
+      },
+      {
+        "text": "○○かもしれない",
+        "point": 2
+      },
+      {
+        "text": "○○ではない",
+        "point": 1
+      }
+    ]
+  },
+  {
+    "key":"q-21",
+    "question": "質問２１",
+    "selections": [
+      {
+        "text": "○○である",
+        "point": 3
+      },
+      {
+        "text": "○○かもしれない",
+        "point": 2
+      },
+      {
+        "text": "○○ではない",
+        "point": 1
+      }
+    ]
+  },
+  {
+    "key":"q-22",
+    "question": "質問２２",
+    "selections": [
+      {
+        "text": "○○である",
+        "point": 3
+      },
+      {
+        "text": "○○かもしれない",
+        "point": 2
+      },
+      {
+        "text": "○○ではない",
+        "point": 1
+      }
+    ]
+  },
+  {
+    "key":"q-23",
+    "question": "質問２３",
+    "selections": [
+      {
+        "text": "○○である",
+        "point": 3
+      },
+      {
+        "text": "○○かもしれない",
+        "point": 2
+      },
+      {
+        "text": "○○ではない",
+        "point": 1
+      }
+    ]
+  },
+  {
+    "key":"q-24",
+    "question": "質問２４",
+    "selections": [
+      {
+        "text": "○○である",
+        "point": 3
+      },
+      {
+        "text": "○○かもしれない",
+        "point": 2
+      },
+      {
+        "text": "○○ではない",
+        "point": 1
+      }
+    ]
+  },
+  {
+    "key":"q-31",
+    "question": "質問３１",
+    "selections": [
+      {
+        "text": "○○である",
+        "point": 3
+      },
+      {
+        "text": "○○かもしれない",
+        "point": 2
+      },
+      {
+        "text": "○○ではない",
+        "point": 1
+      }
+    ]
+  },
+  {
+    "key":"q-32",
+    "question": "質問３２",
+    "selections": [
+      {
+        "text": "○○である",
+        "point": 3
+      },
+      {
+        "text": "○○かもしれない",
+        "point": 2
+      },
+      {
+        "text": "○○ではない",
+        "point": 1
+      }
+    ]
+  },
+  {
+    "key":"q-33",
+    "question": "質問３３",
+    "selections": [
+      {
+        "text": "○○である",
+        "point": 3
+      },
+      {
+        "text": "○○かもしれない",
+        "point": 2
+      },
+      {
+        "text": "○○ではない",
+        "point": 1
+      }
+    ]
+  },
+  {
+    "key":"q-34",
+    "question": "質問３４",
+    "selections": [
+      {
+        "text": "○○である",
+        "point": 3
+      },
+      {
+        "text": "○○かもしれない",
+        "point": 2
+      },
+      {
+        "text": "○○ではない",
+        "point": 1
+      }
+    ]
+  }
+]
