@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <% include _head %>
+</head>
+<body>
+<div class="container">
+    <div id="assessSlide" class="carousel slide" data-ride="carousel" data-interval="false">
+        <div class="carousel-inner">
+            
+            <div id="page0" class="carousel-item active">
+                <div class="_button-container">
+                    <button class="btn btn-primary _btn-next">開始</a>
+                </div>
+
+            </div>
+            <div id="page1" class="carousel-item">
+                
+                <h1>物理コストについて</h1>
+                
+                <h2>リソース</h2>
+                
+                <div class="_question-container">
+                    <p class="lead">サーバーの仮想化は導入していますか？</p>
+                    <hr>
+                    <div class="btn-group" data-toggle="buttons">
+                        <label class="btn btn-info active">
+                            <input type="radio" name="val_11" autocomplete="off" checked value="3">実施済み
+                        </label>
+                        <label class="btn btn-info">
+                            <input type="radio" name="val_11" autocomplete="off" value="2">一部実施済み
+                        </label>
+                        <label class="btn btn-info">
+                            <input type="radio" name="val_11" autocomplete="off" value="1">未実施
+                        </label>
+                    </div>
+                </div>
+
+                <h2>ライセンス</h2>
+                
+                <div class="_question-container">
+                    <p class="lead">現在購入しているライセンス形態が適正ですか（ライセンス数、価格、形態）</p>
+                    <hr>
+                    <div class="btn-group" data-toggle="buttons">
+                        <label class="btn btn-info active" >
+                            <input type="radio" name="val_12" autocomplete="off" checked value="3">適正である。
+                        </label>
+                        <label class="btn btn-info">
+                            <input type="radio" name="val_12" autocomplete="off" value="1">分からない
+                        </label>
+                    </div>
+                </div>
+                
+                <h2>場所</h2>
+                
+                <div class="_question-container">
+                    <p class="lead">サーバの設置場所はどこですか</p>
+                    <hr>
+                    <div class="btn-group" data-toggle="buttons">
+                        <label class="btn btn-info active">
+                            <input type="radio" name="val_13" autocomplete="off" checked value="3">クラウド、またはホスティングサービスを使用中
+                        </label>
+                        <label class="btn btn-info">
+                            <input type="radio" name="val_13" autocomplete="off" value="2">ハウジング、または自社保有サーバルーム
+                        </label>
+                        <label class="btn btn-info">
+                            <input type="radio" name="val_13" autocomplete="off" value="1">自社ビル内
+                        </label>
+                    </div>
+                </div>
+                
+                <div class="_button-container">
+                    <button class="btn btn-success _btn-prev">戻る</a>
+                    <button class="btn btn-primary _btn-next">次の質問へ</a>
+                </div>
+                
+            </div>
+            
+            <div id="page2" class="carousel-item">
+                
+                <h1>運用コストについて</h1>
+                
+                <h2>運用・監視</h2>
+                
+                <div class="_question-container">
+                    <p class="lead">サーバ監視は行なっていますか</p>
+                    <hr>
+                    <div class="btn-group" data-toggle="buttons">
+                        <label class="btn btn-info active">
+                            <input type="radio" name="val_21" autocomplete="off"  checked value="3">自動監視している
+                        </label>
+                        <label class="btn btn-info">
+                            <input type="radio" name="val_21" autocomplete="off" value="2">手動（目視）で実施している
+                        </label>
+                        <label class="btn btn-info">
+                            <input type="radio" name="val_21" autocomplete="off" value="1">実施していない
+                        </label>
+                    </div>
+                </div>
+
+                <div class="_question-container">
+                    <p class="lead">ユーザー管理はどのように行っていますか</p>
+                    <hr>
+                    <div class="btn-group" data-toggle="buttons">
+                        <label class="btn btn-info active">
+                            <input type="radio" name="val_22" autocomplete="off"  checked value="3">専用ソフトウェアで管理
+                        </label>
+                        <label class="btn btn-info">
+                            <input type="radio" name="val_22" autocomplete="off" value="2">Notesで管理
+                        </label>
+                        <label class="btn btn-info">
+                            <input type="radio" name="val_22" autocomplete="off" value="1">管理していない
+                        </label>
+                    </div>
+                </div>
+
+                <div class="_question-container">
+                    <p class="lead">ユーザーメンテナンスは自動化されていますか</p>
+                    <hr>
+                    <div class="btn-group" data-toggle="buttons">
+                        <label class="btn btn-info active">
+                            <input type="radio" name="val_23" autocomplete="off"  checked value="3">基幹システムや申請システムと連動
+                        </label>
+                        <label class="btn btn-info">
+                            <input type="radio" name="val_23" autocomplete="off" value="2">手動で作成したデータを使用
+                        </label>
+                        <label class="btn btn-info">
+                            <input type="radio" name="val_23" autocomplete="off" value="1">1件ずつ手動で登録している
+                        </label>
+                    </div>
+                </div>
+
+                <div class="_question-container">
+                    <p class="lead">Question23</p>
+                    <hr>
+                    <div class="btn-group" data-toggle="buttons">
+                        <label class="btn btn-info active">
+                            <input type="radio" name="val_24" autocomplete="off"  checked value="3">select1
+                        </label>
+                        <label class="btn btn-info">
+                            <input type="radio" name="val_24" autocomplete="off" value="2">select2
+                        </label>
+                        <label class="btn btn-info">
+                            <input type="radio" name="val_24" autocomplete="off" value="1">select3
+                        </label>
+                    </div>
+                </div>
+
+                <h2>Sub Category2</h2>
+                
+                <div class="_question-container">
+                    <p class="lead">Question24</p>
+                    <hr>
+                    <div class="btn-group" data-toggle="buttons">
+                        <label class="btn btn-info active">
+                            <input type="radio" name="val_25" autocomplete="off"  checked value="3">select1
+                        </label>
+                        <label class="btn btn-info">
+                            <input type="radio" name="val_25" autocomplete="off" value="2">select2
+                        </label>
+                        <label class="btn btn-info">
+                            <input type="radio" name="val_25" autocomplete="off" value="1">select3
+                        </label>
+                    </div>
+                </div>
+
+                <div class="_button-container">
+                    <button class="btn btn-success _btn-prev">戻る</a>
+                    <button class="btn btn-primary _btn-next">次の質問へ</a>
+                </div>
+                
+            </div>
+            
+            <div id="page3" class="carousel-item">
+
+                <h1>Category3</h1>
+
+                <h2>Sub Category1</h2>
+
+                <div class="_question-container">
+                    <p class="lead">Question31</p>
+                    <hr>
+                    <div class="btn-group" data-toggle="buttons">
+                        <label class="btn btn-info active">
+                            <input type="radio" name="val_31" autocomplete="off"  checked value="3">select1
+                        </label>
+                        <label class="btn btn-info">
+                            <input type="radio" name="val_31" autocomplete="off" value="2">select2
+                        </label>
+                        <label class="btn btn-info">
+                            <input type="radio" name="val_31" autocomplete="off" value="1">select3
+                        </label>
+                    </div>
+                </div>
+
+                <div class="_question-container">
+                    <p class="lead">Question32</p>
+                    <hr>
+                    <div class="btn-group" data-toggle="buttons">
+                        <label class="btn btn-info active">
+                            <input type="radio" name="val_32" autocomplete="off"  checked value="3">select1
+                        </label>
+                        <label class="btn btn-info">
+                            <input type="radio" name="val_32" autocomplete="off" value="2">select2
+                        </label>
+                        <label class="btn btn-info">
+                            <input type="radio" name="val_32" autocomplete="off" value="1">select3
+                        </label>
+                    </div>
+                </div>
+
+                <h2>Sub Category2</h2>
+
+                <div class="_question-container">
+                    <p class="lead">Question33</p>
+                    <hr>
+                    <div class="btn-group" data-toggle="buttons">
+                        <label class="btn btn-info active">
+                            <input type="radio" name="val_33" autocomplete="off"  checked value="3">select1
+                        </label>
+                        <label class="btn btn-info">
+                            <input type="radio" name="val_33" autocomplete="off" value="2">select2
+                        </label>
+                        <label class="btn btn-info">
+                            <input type="radio" name="val_33" autocomplete="off" value="1">select3
+                        </label>
+                    </div>
+                </div>
+
+                <div class="_question-container">
+                    <p class="lead">Question34</p>
+                    <hr>
+                    <div class="btn-group" data-toggle="buttons">
+                        <label class="btn btn-info active">
+                            <input type="radio" name="val_34" autocomplete="off"  checked value="3">select1
+                        </label>
+                        <label class="btn btn-info">
+                            <input type="radio" name="val_34" autocomplete="off" value="2">select2
+                        </label>
+                        <label class="btn btn-info">
+                            <input type="radio" name="val_34" autocomplete="off" value="1">select3
+                        </label>
+                    </div>
+                </div>
+
+                <div id="_button-container">
+                    <button class="btn btn-success _btn-prev">戻る</a>
+                    <button class="btn btn-primary _btn-next">次の質問へ</a>
+                </div>
+                
+            </div>
+            
+            <div id="page4" class="carousel-item">
+
+                <h1>Category4</h1>
+
+                <h2>Sub Category1</h2>
+
+                <div class="_question-container">
+                    <p class="lead">Question41</p>
+                    <hr>
+                    <div class="btn-group" data-toggle="buttons">
+                        <label class="btn btn-info active">
+                            <input type="radio" name="val_41" autocomplete="off"  checked value="3">select1
+                        </label>
+                        <label class="btn btn-info">
+                            <input type="radio" name="val_41" autocomplete="off" value="2">select2
+                        </label>
+                        <label class="btn btn-info">
+                            <input type="radio" name="val_41" autocomplete="off" value="1">select3
+                        </label>
+                    </div>
+                </div>
+
+                <div class="_question-container">
+                    <p class="lead">Question42</p>
+                    <hr>
+                    <div class="btn-group" data-toggle="buttons">
+                        <label class="btn btn-info active">
+                            <input type="radio" name="val_42" autocomplete="off"  checked value="3">select1
+                        </label>
+                        <label class="btn btn-info">
+                            <input type="radio" name="val_42" autocomplete="off" value="2">select2
+                        </label>
+                        <label class="btn btn-info">
+                            <input type="radio" name="val_42" autocomplete="off" value="1">select3
+                        </label>
+                    </div>
+                </div>
+
+                <h2>Sub Category2</h2>
+
+                <div class="_question-container">
+                    <p class="lead">Question43</p>
+                    <hr>
+                    <div class="btn-group" data-toggle="buttons">
+                        <label class="btn btn-info active">
+                            <input type="radio" name="val_43" autocomplete="off"  checked value="3">select1
+                        </label>
+                        <label class="btn btn-info">
+                            <input type="radio" name="val_43" autocomplete="off" value="2">select2
+                        </label>
+                        <label class="btn btn-info">
+                            <input type="radio" name="val_43" autocomplete="off" value="1">select3
+                        </label>
+                    </div>
+                </div>
+
+                <div class="_question-container">
+                    <p class="lead">Question44</p>
+                    <hr>
+                    <div class="btn-group" data-toggle="buttons">
+                        <label class="btn btn-info active">
+                            <input type="radio" name="val_44" autocomplete="off"  checked value="3">select1
+                        </label>
+                        <label class="btn btn-info">
+                            <input type="radio" name="val_44" autocomplete="off" value="2">select2
+                        </label>
+                        <label class="btn btn-info">
+                            <input type="radio" name="val_44" autocomplete="off" value="1">select3
+                        </label>
+                    </div>
+                </div>
+
+                <div class="_question-container">
+                    <p class="lead">Question45</p>
+                    <hr>
+                    <div class="btn-group" data-toggle="buttons">
+                        <label class="btn btn-info active">
+                            <input type="radio" name="val_45" autocomplete="off"  checked value="3">select1
+                        </label>
+                        <label class="btn btn-info">
+                            <input type="radio" name="val_45" autocomplete="off" value="2">select2
+                        </label>
+                        <label class="btn btn-info">
+                            <input type="radio" name="val_45" autocomplete="off" value="1">select3
+                        </label>
+                    </div>
+                </div>
+
+                <div id="_button-container">
+                    <button class="btn btn-success _btn-prev">戻る</a>
+                    <button class="btn btn-primary _btn-next">次の質問へ</a>
+                </div>
+                
+            </div>
+            
+            <div id="page5" class="carousel-item">
+
+                <h1>Category5</h1>
+
+                <h2>Sub Category1</h2>
+
+                <div class="_question-container">
+                    <p class="lead">Question51</p>
+                    <hr>
+                    <div class="btn-group" data-toggle="buttons">
+                        <label class="btn btn-info active">
+                            <input type="radio" name="val_51" autocomplete="off"  checked value="3">select1
+                        </label>
+                        <label class="btn btn-info">
+                            <input type="radio" name="val_51" autocomplete="off" value="2">select2
+                        </label>
+                        <label class="btn btn-info">
+                            <input type="radio" name="val_51" autocomplete="off" value="1">select3
+                        </label>
+                    </div>
+                </div>
+
+                <h2>Sub Category2</h2>
+
+                <div class="_question-container">
+                    <p class="lead">Question52</p>
+                    <hr>
+                    <div class="btn-group" data-toggle="buttons">
+                        <label class="btn btn-info active">
+                            <input type="radio" name="val_52" autocomplete="off"  checked value="3">select1
+                        </label>
+                        <label class="btn btn-info">
+                            <input type="radio" name="val_52" autocomplete="off" value="2">select2
+                        </label>
+                        <label class="btn btn-info">
+                            <input type="radio" name="val_52" autocomplete="off" value="1">select3
+                        </label>
+                    </div>
+                </div>
+
+                <div class="_question-container">
+                    <p class="lead">Question53</p>
+                    <hr>
+                    <div class="btn-group" data-toggle="buttons">
+                        <label class="btn btn-info active">
+                            <input type="radio" name="val_53" autocomplete="off"  checked value="3">select1
+                        </label>
+                        <label class="btn btn-info">
+                            <input type="radio" name="val_53" autocomplete="off" value="2">select2
+                        </label>
+                        <label class="btn btn-info">
+                            <input type="radio" name="val_53" autocomplete="off" value="1">select3
+                        </label>
+                    </div>
+                </div>
+
+                <div class="_question-container">
+                    <p class="lead">Question54</p>
+                    <hr>
+                    <div class="btn-group" data-toggle="buttons">
+                        <label class="btn btn-info active">
+                            <input type="radio" name="val_54" autocomplete="off"  checked value="3">select1
+                        </label>
+                        <label class="btn btn-info">
+                            <input type="radio" name="val_54" autocomplete="off" value="2">select2
+                        </label>
+                        <label class="btn btn-info">
+                            <input type="radio" name="val_54" autocomplete="off" value="1">select3
+                        </label>
+                    </div>
+                </div>
+
+                <div class="_question-container">
+                    <p class="lead">Question55</p>
+                    <hr>
+                    <div class="btn-group" data-toggle="buttons">
+                        <label class="btn btn-info active">
+                            <input type="radio" name="val_55" autocomplete="off"  checked value="3">select1
+                        </label>
+                        <label class="btn btn-info">
+                            <input type="radio" name="val_55" autocomplete="off" value="2">select2
+                        </label>
+                        <label class="btn btn-info">
+                            <input type="radio" name="val_55" autocomplete="off" value="1">select3
+                        </label>
+                    </div>
+                </div>
+
+                <div id="_button-container">
+                    <button class="btn btn-success _btn-prev">戻る</a>
+                    <button class="btn btn-primary _btn-next">次の質問へ</a>
+                </div>
+
+            </div>
+
+            <div id="page6" class="carousel-item">
+
+                <h1>Category6</h1>
+
+                <h2>Sub Category1</h2>
+
+                <div class="_question-container">
+                    <p class="lead">Question61</p>
+                    <hr>
+                    <div class="btn-group" data-toggle="buttons">
+                        <label class="btn btn-info active">
+                            <input type="radio" name="val_61" autocomplete="off"  checked value="3">select1
+                        </label>
+                        <label class="btn btn-info">
+                            <input type="radio" name="val_61" autocomplete="off" value="2">select2
+                        </label>
+                        <label class="btn btn-info">
+                            <input type="radio" name="val_61" autocomplete="off" value="1">select3
+                        </label>
+                    </div>
+                </div>
+
+                <h2>Sub Category2</h2>
+
+                <div class="_question-container">
+                    <p class="lead">Question62</p>
+                    <hr>
+                    <div class="btn-group" data-toggle="buttons">
+                        <label class="btn btn-info active">
+                            <input type="radio" name="val_62" autocomplete="off"  checked value="3">select1
+                        </label>
+                        <label class="btn btn-info">
+                            <input type="radio" name="val_62" autocomplete="off" value="2">select2
+                        </label>
+                        <label class="btn btn-info">
+                            <input type="radio" name="val_62" autocomplete="off" value="1">select3
+                        </label>
+                    </div>
+                </div>
+
+                <div class="_question-container">
+                    <p class="lead">Question63</p>
+                    <hr>
+                    <div class="btn-group" data-toggle="buttons">
+                        <label class="btn btn-info active">
+                            <input type="radio" name="val_63" autocomplete="off"  checked value="3">select1
+                        </label>
+                        <label class="btn btn-info">
+                            <input type="radio" name="val_63" autocomplete="off" value="2">select2
+                        </label>
+                        <label class="btn btn-info">
+                            <input type="radio" name="val_63" autocomplete="off" value="1">select3
+                        </label>
+                    </div>
+                </div>
+
+                <div class="_question-container">
+                    <p class="lead">Question64</p>
+                    <hr>
+                    <div class="btn-group" data-toggle="buttons">
+                        <label class="btn btn-info active">
+                            <input type="radio" name="val_64" autocomplete="off"  checked value="3">select1
+                        </label>
+                        <label class="btn btn-info">
+                            <input type="radio" name="val_64" autocomplete="off" value="2">select2
+                        </label>
+                        <label class="btn btn-info">
+                            <input type="radio" name="val_64" autocomplete="off" value="1">select3
+                        </label>
+                    </div>
+                </div>
+
+
+                <h2>Sub Category3</h2>
+
+                <div class="_question-container">
+                    <p class="lead">Question65</p>
+                    <hr>
+                    <div class="btn-group" data-toggle="buttons">
+                        <label class="btn btn-info active">
+                            <input type="radio" name="val_65" autocomplete="off"  checked value="3">select1
+                        </label>
+                        <label class="btn btn-info">
+                            <input type="radio" name="val_65" autocomplete="off" value="2">select2
+                        </label>
+                        <label class="btn btn-info">
+                            <input type="radio" name="val_65" autocomplete="off" value="1">select3
+                        </label>
+                    </div>
+                </div>
+
+                <div id="_button-container">
+                    <button class="btn btn-success _btn-prev">戻る</a>
+                    <button class="btn btn-primary _btn-check">診断</a>
+                </div>
+
+            </div>
+            <div id="page7" class="carousel-item">
+                <h1>Domino 診断結果</h1>
+                <table class="table table-bordered">
+                    <thead class="thead">
+                        <tr>
+                            <th rowspan="2">診断項目</th>
+                            <th rowspan="2">御社の<br>ポイント</th>
+                            <th rowspan="2">一般平均</th>
+                            <th colspan="3">各項目の割合</th>
+                            <th rowspan="2">総評</th>
+                        </tr>
+                        <tr>
+                            <th>3ポイント</th>
+                            <th>2ポイント</th>
+                            <th>1ポイント</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>物理コスト</td>
+                            <td id="point_1" class="text-right"></td>
+                            <td id="ref_1" class="text-right"></td>
+                            <td id="ratio3_1" class="text-right"></td>
+                            <td id="ratio2_1" class="text-right"></td>
+                            <td id="ratio1_1" class="text-right"></td>
+                            <td id="eval_1"></td>
+                        </tr>
+                        <tr>
+                            <td>運用コスト</td>
+                            <td id="point_2" class="text-right"></td>
+                            <td id="ref_2" class="text-right"></td>
+                            <td id="ratio3_2" class="text-right"></td>
+                            <td id="ratio2_2" class="text-right"></td>
+                            <td id="ratio1_2" class="text-right"></td>
+                            <td id="eval_2"></td>
+                        </tr>
+                        <tr>
+                            <td>利便性（システム・インフラ）</td>
+                            <td id="point_3" class="text-right"></td>
+                            <td id="ref_3" class="text-right"></td>
+                            <td id="ratio3_3" class="text-right"></td>
+                            <td id="ratio2_3" class="text-right"></td>
+                            <td id="ratio1_3" class="text-right"></td>
+                            <td id="eval_3"></td>
+                        </tr>
+                        <tr>
+                            <td>利便性（ノーツアプリ）</td>
+                            <td id="point_4" class="text-right"></td>
+                            <td id="ref_4" class="text-right"></td>
+                            <td id="ratio3_4" class="text-right"></td>
+                            <td id="ratio2_4" class="text-right"></td>
+                            <td id="ratio1_4" class="text-right"></td>
+                            <td id="eval_4"></td>
+                        </tr>
+                        <tr>
+                            <td>セキュリティ</td>
+                            <td id="point_5" class="text-right"></td>
+                            <td id="ref_5" class="text-right"></td>
+                            <td id="ratio3_5" class="text-right"></td>
+                            <td id="ratio2_5" class="text-right"></td>
+                            <td id="ratio1_5" class="text-right"></td>
+                            <td id="eval_5"></td>
+                        </tr>
+                        <tr>
+                            <td>耐障害性</td>
+                            <td id="point_6" class="text-right"></td>
+                            <td id="ref_6" class="text-right"></td>
+                            <td id="ratio3_6" class="text-right"></td>
+                            <td id="ratio2_6" class="text-right"></td>
+                            <td id="ratio1_6" class="text-right"></td>
+                            <td id="eval_6" class="text-right"></td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <div class="row">
+                    <div class="col-md-6">
+                        <canvas id="chart_rader" width="400" height="400"></canvas>
+                    </div>
+                    <div class="col-md-6">
+                        <canvas id="chart_bars" width="400" height="400"></canvas>                        
+                    </div>
+                </div>
+
+                <div id="_button-container">
+                    <button class="btn btn-success _btn-prev">戻る</a>
+                </div>
+                
+            </div>
+
+        </div>
+    </div>
+</div>
+<script src="/javascripts/index.js"></script>
+</body>
+</html>
