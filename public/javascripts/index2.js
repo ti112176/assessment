@@ -1,7 +1,7 @@
 /* global $ _ */
 
 var userAgent = window.navigator.userAgent.toLowerCase();
-
+console.log(userAgent);
 if(userAgent.indexOf('msie') != -1 || userAgent.indexOf('trident') != -1 ) {
     alert('Internet Explorerは使えません');
 } else if(userAgent.indexOf('edge') != -1) {
@@ -88,5 +88,6 @@ $(function(){
     	
     });
 
+	$('.msg_unsupported').addClass('invisible');
 
 });
