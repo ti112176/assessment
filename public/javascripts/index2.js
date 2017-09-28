@@ -84,7 +84,24 @@ $(function(){
     });
 
     $('._btn-check').click(function(){
-    	
+    	$.ajax({
+    		method : "POST",
+    		url : "/api/assessment",
+    		data : {
+    			answers : app.data,
+    			mailAddress : "test@test.com",
+    			telNo : "0120-444-444",
+    			tanto : "苗字名前",
+    			company : "暴力照会株式会社"
+    		},
+    		dataType :"json"
+    	})
+    	.done(function(data, textStatus, jqXHR){
+    		console.log(data);
+    	})
+    	.fail(function(jqXHR, textStatus, errorThrown){
+    		console.log(textStatus);
+    	});
     	
     });
 
